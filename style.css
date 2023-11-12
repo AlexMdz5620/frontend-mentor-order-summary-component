@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url(./images/pattern-background-desktop.svg);
+}
+main{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+/*Container*/
+.container{
+    width: 350px;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+}
+.imgContainer{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.imgContainer img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.info{
+    text-align: center;
+    margin: 0 20px;
+}
+.title{
+    padding: 5px 0 10px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.paragraph{
+    color: hsl(224, 23%, 55%);
+
+    padding: 5px 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.annualPlan{
+    margin: 10px 23px;
+    border-radius: .5rem;
+    background-color: hsl(225, 100%, 98%);
+}
+.infoPlanCard, .infoPlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoPlanCard{
+    padding: 10px 0;
+}
+.infoPlanCard img{
+    width: 35px;
+}
+.infoP{
+    font-size: 14px;
+    margin: 0 25px 0 15px;
+}
+.titleAnnual{
+    color: hsl(0, 0%, 0%);
+    font-weight: 900;
+}
+.payAnnual{
+    margin: 5px 0;
+    color: hsl(224, 23%, 55%);
+}
+.infoPlan a{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 0 45px;
+    color: hsl(223, 47%, 23%);
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+.payment{
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: .5rem;
+}
+.cancel{
+    border: none;
+    margin: 10px 0 30px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+
+}
+/*Footer*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 375px) {
+    body{
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+    .container{
+        width: 330px;
+    }
+    .payment{
+        width: 280px;
+    }
+}
