@@ -78,6 +78,9 @@ main{
     margin: 0 0 0 45px;
     color: hsl(223, 47%, 23%);
 }
+.infoPlan a:hover{
+    cursor: pointer;
+}
 .buttons{
     display: flex;
     flex-direction: column;
@@ -93,6 +96,9 @@ main{
     border: none;
     border-radius: .5rem;
 }
+.payment:hover{
+    cursor: pointer;
+}
 .cancel{
     border: none;
     margin: 10px 0 30px;
@@ -100,6 +106,9 @@ main{
     color: hsl(224, 23%, 55%);
     font-weight: 700;
 
+}
+.cancel:hover{
+    cursor: pointer;
 }
 /*Footer*/
 .attribution {
